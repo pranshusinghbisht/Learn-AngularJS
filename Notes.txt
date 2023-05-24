@@ -1,0 +1,23 @@
+*ngFor="let todo of todos"
+
+
+--this ng for directive provides the for loop this is not a js loop 
+--this is custom html attributes
+
+----Angular provides feature inside the html so that we can play with
+data very easily
+
+
+
+
+##########Input Decorator
+
+
+##########Event Emmitor
+
+
+###########[(ngModel) = "fasdf"] in input
+
+-------------------------------------------------
+ng g c MyComponent/asdfa
+ng generate control 
