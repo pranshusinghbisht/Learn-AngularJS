@@ -1,0 +1,25 @@
+--Typescript is the language in which the entire framework(angular) is written.
+
+#Introduction to Typescript
+
+--A strongly typed Programming language
+--Created and maintained by Microsoft.
+--Superset of JavaScript
+
+
+#Why Typescript
+
+--Compiles to Javascript.
+--Keeps your code evergreen.
+--Supported by all major libraries and frameworks.
+
+#Type Safety
+
+--Keeps your application free from Type Errors.
+--Language like c#, Java are the example of Type Safe Language.
+--Keeps your js code free from undefined and null values.
+--In Typescript Types are stripped when your code is converted to JS.
+
+
+#Installing and creating you first typescript program
+
