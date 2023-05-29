@@ -1,0 +1,16 @@
+#What is SPA?
+
+--SPA stands for Single Page application
+--You can use modern frameworks like Angular, React or Vue to create SPA.
+--SPA does not make requests to server for every URL requests.
+
+#How angular Helps
+--Angular has Routing functionality to create SPA.
+--Angular also offers SSR(Server Side Rendering) which supports SPA.
+
+#/software Installation
+--nodejs Installation
+--install ide eg: VS code
+
+
+

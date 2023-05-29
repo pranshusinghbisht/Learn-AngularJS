@@ -1,0 +1,29 @@
+#What is angular?
+
+--A UI framework build by Google
+--A component-based framework for buildinng scalable app
+--Provided collection of libraries to cover features like Routing, Forms.
+
+
+#What is components?
+--a component refers to a modular and reusable building block that encapsulates a specific portion of a user interface (UI) or functionality in a web application. It is a self-contained entity that combines HTML, CSS, and JavaScript code to create a cohesive and independent element.
+
+
+#What is library and framework
+
+--Framework can be refer to structure having set of pre written tools to build an any kind of application.
+--Libraries are the part of framework
+--We can built top of the any framework we can extend.
+
+--Libraries generally perform specific operation.
+--You can combine multiple libs to build apps
+--Some examples are React, MomentJS, Lodash.
+
+
+#Feature of Angular
+--Template (it has template engine)
+--Data Binding
+--Forms
+--Routing
+--Observables
+--PWA

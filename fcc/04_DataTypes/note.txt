@@ -1,0 +1,27 @@
+#Data Types
+
+--string
+--number
+--boolean
+--array
+--enum
+--tuple
+--any
+--void
+--never
+
+#Type inference
+
+--Typesscprt have the ability to detemine the type of from the value which has been assigned. This is type inference
+
+--but this is not recommended... always use type.
+
+#Functions
+
+
+
+#Union and Intersection Types
+
+#Generics
+
+#Literal Types
