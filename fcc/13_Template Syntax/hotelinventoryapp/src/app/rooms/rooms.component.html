@@ -1,0 +1,11 @@
+<h1>
+  Welcome to {{hotelName}}
+</h1>
+
+<div [hidden]="hideRooms">
+  No of rooms: 
+<div [innerText]="noOfRooms"></div>
+
+</div>
+
+<button (click)="eventFunc()">EventFunction</button>

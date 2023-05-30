@@ -1,0 +1,31 @@
+##Introduction
+
+--Directives are use to change the behavior and apprearance of DOM element.
+
+--Directives can implement all lifecycle hooks.
+
+--Directives can not have template
+
+--Directives are used to add additional functionality to existing DOM elements or components.
+feature    components   Directive
+Template	  Yes     	    No
+Logic	      Yes     	    Yes
+
+##Types of Directives
+1. Structural Directives
+
+-- They are costier because they are going to change the behaviour of the DOM. Which may give you performance issues as well.
+
+2.Attribute Directive
+
+--We use this lot of the times
+
+
+##Built in Directives
+
+1. *ngIf
+2. *ngFor
+3. *ngSwitch
+4. *ngClass
+5. *ngStyle
+

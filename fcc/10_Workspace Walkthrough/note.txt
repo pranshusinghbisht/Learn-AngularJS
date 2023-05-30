@@ -1,0 +1,41 @@
+#src
+-- here we write the code
+
+
+#node_modules
+
+--all the set of packages we installed it comes in this folder
+
+
+#tsconfig.app.json and tsconfig.spec.json
+
+--they both both file tsconfig.json
+---perpose: 
+
+
+#dependencies
+
+-- These are the packages that are required for your application to run correctly in a production environment.
+
+#devDependencoes
+
+-- These are the packages that are only needed during the development and testing process.
+
+--* even Typescript is the devDependencies, we are not deploy the Typescript in the production
+
+
+#package-lock.json (for npm) or yarn.lock (for yarn)
+
+--  It serves as a record of the exact versions of packages that were installed in a particular environment.
+
+#karma.conf.js
+
+-- The karma.conf.js file is a configuration file used by the Karma test runner, which is commonly used for running unit tests in JavaScript or TypeScript projects
+
+#.editorconfig
+
+-- The .editorconfig file is a configuration file used to define and maintain consistent coding styles and formatting across different editors and IDEs.
+
+#.browserslistrc
+
+--The .browserslistrc file is a configuration file used to define the target browsers and their versions for which you want to optimize and ensure compatibility when building web projects.

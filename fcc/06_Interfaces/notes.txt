@@ -1,0 +1,16 @@
+#Creating Interfaces
+
+#Using Interfaces as Types
+
+#Implementing Interfaces
+
+#Extending Interfaces
+
+#Optional Properties
+
+#Object Destructuring
+
+#Array Destructuring
+
+
+###there is no concept of interface in js.. whenever we write interface after compilation interface will not be appear. At the time of creating APIs we should not use of interface over there

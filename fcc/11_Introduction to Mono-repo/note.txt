@@ -1,0 +1,21 @@
+#Introduction to mono-repo
+
+-- in angular, We can create multiple projects that something called mono-repo.
+
+-- it is something have multiple application and libraries both
+
+-- it makes to share multiple sharing between mutilproject easy  
+
+-- suppose , we have a team which is working on admin, client facing/ public facing application. They can create and extract the common code. Keep it in a libraray across and use it.
+
+-- it saves lot of efforts, time, collaboration much easier. 
+
+
+
+*) Create and maintain multiple apps in same repo
+*) Use libraries within the project
+*) Deploy multiple apps/libs from same repo
+*) Easy to share code within the project
+
+
+

@@ -1,0 +1,18 @@
+#Introduction to decorators
+(class decorators, method decorators)
+
+--It is ability to modify the behavior of the class or a method or a property at the runtime.
+
+--Most of the time we not used. It is working internally inside angular
+
+eg: 
+
+@Component({})
+class Component{
+    constructor(public name: string){}
+}
+
+--generally somthing we see top of the class, method with starting with @ having curly brackets. Those are decorators. It can change the behaviour of the class in runtime when they are executed
+
+--we can also create our custom decorators
+--in tsconfig file : we need to experimentalDecorators: true //should be enable

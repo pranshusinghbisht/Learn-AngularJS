@@ -1,0 +1,30 @@
+#Template Syntax
+
+-- Every language and libraries has there different syntax to works with templates.
+
+#Binding Syntax
+
+-- there are three ways to bind information which is available in ts file to your html.
+
+1. Interpolation
+eg: hotelName = 'Taz Hotel';
+inside HTML-----> {{}}
+
+
+2. Property Binding
+-- Angular allows you to use native html attribute for binding.
+
+eg: noOfRooms = 25;
+<div [innerText]="noOfRooms"></div>
+
+--this is known as box sysntax
+
+3. Event Binding
+-- (click)
+
+--this is known as banana syntax
+
+
+
+
+-- ctrl + p for searching inside the Sources section in console.

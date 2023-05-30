@@ -1,0 +1,45 @@
+#test.ts
+
+-- this file is used by karma.config.js and loads recusrsive all the .spec and framework files
+
+#styles.css
+
+-- this file used to add global styles to this file, and also import other style files
+
+#polyfills.ts
+
+-- It will make sure that your code which you have written backward compatable with some older browsers.
+
+-- The polyfills.ts file is typically created in projects that need to support older browsers or specific browser versions that don't fully support all the JavaScript features or APIs used in the project code.
+
+#main.ts
+
+-- This main.ts is the entrypoint where our application execution start.
+
+#index.html
+
+-- this is the main html where we serve to the user
+-- Angular is SPA
+
+
+#favicon.ico
+
+-- is something we used as logo 
+
+#environments folder
+
+-- In an Angular project, the environments folder is a default directory that contains environment-specific configuration files. It is commonly used to manage different configuration settings for different deployment environments such as development, staging, and production.
+
+#assets
+
+-- here we keep all assets like images, some static files.
+
+
+#app
+
+-- this is the folder we are going to write our code
+
+
+#app-routing.module.ts
+
+-- The app-routing.module.ts file is a module file in an Angular project that is responsible for defining and configuring the routing for the application.

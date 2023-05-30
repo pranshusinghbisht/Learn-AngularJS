@@ -1,0 +1,79 @@
+#   @NgModule
+
+In angular, Everything is a class 
+
+--we need atleast one module known as root module
+
+--which have information about all the components which have been created inside array imports.
+
+-- It also contains information of any third party librararies
+
+--If we see in the browser, we have BrowserModule(it is a part of angular module)
+
+
+#Any component, Directive and Pipes needs to be registerd by declarations: array inside @ngModule({
+    declarations:[]
+})
+
+
+--* i can create n no. of modules. it need atleast one root module 
+
+
+#AppModule is class which knows everything about application, all different modules i am using, different components. It gives information to the compiler.
+
+
+.......................................
+@NgModule
+-- whatever class we are compiling, what type of class is that.
+
+--this is decorator (it modifies the behavior of the class)
+
+-- it gives the metadata information wha t are hte modules we are using, components everything.
+
+
+........................................
+
+@NgModule(
+{
+    bootstrap: [AppComponent];
+}
+)
+
+-- Once we compile all the file your angular application is need to know that which component is loaded first.
+
+
+
+
+#########################################
+
+
+#components
+
+-- components are somthing which are views to render to the end user.
+
+-- AppComponent is the first component (app.component.ts)
+
+###in app.component.ts
+-- We have @Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+
+#selector
+
+-- it includes basically HTML tag, but it needs to be render to the html:
+
+#templateUrl
+
+-- it points the particular html file path which i want to render. For inline we can use use template instead of templateUrl. for multi line we can use tilt operator `` then write the html
+
+--eg: @Component({
+  selector: 'app-root',
+  template:'<h1> Hello World from inline template </h1>',
+  styleUrls: ['./app.component.css']
+})
+
+#styleUrls
+
+--it points the particular css file path which i want to render.

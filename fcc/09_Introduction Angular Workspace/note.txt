@@ -1,0 +1,20 @@
+#Installing Angular CLI
+
+-- npm i @angular/cli -g
+-- Use npx to avoid having global version
+
+
+#Creating Angular workspace
+
+-- ng new hotelinventoryappp --createApplication=false 
+
+#Creating Angular Application inside Workspace
+
+-- ng g app hotelinventory
+
+[sample: i created hotelinventoryappp]
+
+#Creating Angular Application
+
+[sample: i created hotelinventoryapp]
+
