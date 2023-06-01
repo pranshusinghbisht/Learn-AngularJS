@@ -1,3 +1,50 @@
-<div > 0">
+
+<!-- ngIf -->
+<div *ngIf="rooms.availableRooms > 0">
   Rooms List
+
+
+  <!-- ngFor -->
+  <!-- {{roomList[0].roomType}} -->
+  <!-- in this case we using ngFor directives -->
+
+  <table>
+    <tr>
+      <th>Index</th>
+      <th>Even/Odd</th>
+      <th>Room Number</th>
+      <th>Room Type</th>
+      <th>Room Price</th>
+      <th>Room Amanities</th>
+      <th>Checkin time</th>
+    </tr>
+
+    <tr [ngClass]="e? 'even': 'odd'" *ngFor="let room of roomList; let e = odd; let o= even; let i = index">
+      <td>{{i}}</td>
+      <td>{{ e ? "Even" : "Odd" }}</td>
+      <td>{{ room.roomNumber}}</td>
+      <td>{{ room.roomType}}</td>
+      <td>{{ room.amenities}}</td>
+      <td>{{ room.price}}</td>
+      <td>{{ room.checkinTime}}</td>
+    </tr>
+
+  </table>
+
+
+</div>
+
+<!-- <div *ngIf="rooms?.availableRooms !== undefined">
+  Rooms List
+</div> -->
+
+
+
+
+<!-- ngStyle directive -->
+<div [ngStyle] = "{'background-color': rooms.availableRooms ? 'green' : 'red' }">
+
+  {{noOfRooms}}
+  
+
 </div>

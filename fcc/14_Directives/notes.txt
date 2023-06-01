@@ -24,8 +24,37 @@ Logic	      Yes     	    Yes
 ##Built in Directives
 
 1. *ngIf
+--entire div will display when the condition true, otherwise entire div will gone.
+
+--the perfect usecase some secure information which we dont want to display to all user. We want to enable that area in some particular case.
+
+--use as many i can in angular this feature. Dont rely on hidden Attribute
+
 2. *ngFor
+
+--it is very useful in such cases where we have array of objects and we just need to bind it.
+
+--it gives access to few more things like even or odd values
+
+--* whats this star means --> they are two types of directive. * differetiate the type of directive. * represent the structural directives. (structural directives can modify the DOM)
+
 3. *ngSwitch
+
+-- it is something, we use rarely but 
+
+
 4. *ngClass
+
+--this is related to style
+
 5. *ngStyle
+
+--this is related to style
+
+
+
+#There are two feature which are enable in typescript that is Optional chaining and nullish collision.
+##Optional Chaining
+ in works on : TypeScript version 3.7. 
+ --as i am using angular 6 and ts 2.9
 
