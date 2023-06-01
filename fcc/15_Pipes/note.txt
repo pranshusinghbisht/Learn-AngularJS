@@ -1,0 +1,33 @@
+***We have learnt how to data biniding in angular so far, We learnt useful directives
+
+#Pipes
+
+--Pipes are used for data transformation
+
+---Pipes don't change actual object
+
+--in day to day we bind some data to view. One requirement comes this particular date object should not be displayed in the long date format which we have set. Probabilty we need to set shown in other format.
+
+--like one requiremnet is to display amount in dollers, inr, any other currency. By default currency is doller but we may need to show in a different format.
+
+-- we dont need to ask the api to change the date format.
+
+-- here Pipes are used to data transformation
+
+-- this means our previous object is as it is. but while presenting the object displayiing in a different format.
+
+
+####Built-in-Pipes
+
+*) DatePipe
+*) UpperCasePipe
+*) LowerCasePipe
+*) CurrencyPipe
+*) DecimalPipe
+*) PercentPipe
+*) JsonPipe
+*) SlicePipe
+*) AsyncPipe
+
+
+//All the DatePipe format i get it from angular.io docs. In the docs section "references" -> API Reference
