@@ -1,0 +1,70 @@
+in starting ./hotelinventoryapp folder, i learnt how to add bootstrap or third party css
+
+now
+
+
+##########Life  Cycle Hooks
+
+~Introduction
+--Component instance has lifecycle hooks which can help you to hook into different events on Components.
+
+--Lifecycle ends when component is destroyed.
+
+~Lifecycle Hooks
+
+*) ngOnInit
+*) ngOnInit
+*) ngDoCheck
+*) ngOnChange
+*) ngAfterContentChecked
+*) ngAfgerViewInit
+*) ngAfgerViewChecked
+*) ngOnDestroy
+
+
+
+//chatgpt definitaion
+
+
+In Angular, hooks are special functions that allow you to add custom logic at specific points in the lifecycle of a component. These hooks are executed by the Angular framework when certain events occur, such as when a component is created, updated, or destroyed. The most commonly used hooks in Angular are as follows:
+
+ngOnInit: This hook is called once after the component is initialized and all its properties have been set. It is commonly used for initialization tasks, such as retrieving data from a server.
+
+ngOnChanges: This hook is called whenever a bound input property of the component changes. It receives a SimpleChanges object that contains information about the previous and current values of the input properties. It is commonly used to react to changes in input properties and perform related tasks.
+
+ngOnDestroy: This hook is called just before a component is destroyed and removed from the DOM. It is used to clean up resources such as unsubscribing from observables or cancelling timers.
+
+ngAfterViewInit: This hook is called after the component's view (including child views) has been fully initialized. It is commonly used for tasks that require access to the DOM elements, such as initializing third-party libraries or performing DOM manipulations.
+
+ngAfterContentInit: This hook is called after content projection (transcluded content) has been initialized. It is commonly used when a component has projected content and you need to perform tasks based on that content.
+
+ngDoCheck: This hook is called during every change detection cycle and allows you to implement custom change detection logic. It is invoked after the default change detection mechanism has run. It should be used with caution as it can impact performance.
+
+These hooks are implemented as methods within the Angular component class. By implementing these methods, you can customize the behavior of your component at various points in its lifecycle.
+
+
+
+
+
+
+############### Ways for Component Communication
+
+--The scenerio where two or more components needs to interact is know as component communication.
+
+--There are multiple ways to achieve the component communication.
+
+
+
+
+1> Using @Input and @Output
+2> @ViewChild and @ContentChild
+3> Using Services
+
+
+-- @Input
+
+In Angular, the @Input decorator is used to define an input property in a component. It allows data to be passed into a component from its parent component.
+
+-- @Output
+
+In Angular, the @Output decorator is used to create a custom event binding from a child component to its parent component. It allows the child component to emit events that the parent component can listen to and respond accordingly.
