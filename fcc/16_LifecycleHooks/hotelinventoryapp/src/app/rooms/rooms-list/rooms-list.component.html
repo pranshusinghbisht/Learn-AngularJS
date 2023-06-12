@@ -1,4 +1,4 @@
-Rooms List
+<h2>{{title}}</h2>
 
 <table class="table">
   <tr>
@@ -21,7 +21,8 @@ Rooms List
     <td>{{ room.price | currency: 'INR'}}</td>
     <td>{{ room.checkinTime | date : 'short'}}</td>
 
-    <td><button class="btn btn-primary" (click)="selectRoom(room)"></button></td>
+    <td><button class="btn btn-primary" (click)="selectRoom(room)">Select</button></td>
+  
   </tr>
 
 </table>

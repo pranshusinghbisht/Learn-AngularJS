@@ -68,3 +68,18 @@ In Angular, the @Input decorator is used to define an input property in a compon
 -- @Output
 
 In Angular, the @Output decorator is used to create a custom event binding from a child component to its parent component. It allows the child component to emit events that the parent component can listen to and respond accordingly.
+
+
+
+##Change detection
+whenever we do some action data, view  needs to be updated. How that happens?
+
+angular do this via change detection. This is internally handle by angular.
+
+But there are multiple way to handle change detection for our component.
+
+there are some rules to use change detection to your component.
+
+~ChangeDetectionStrategy.OnPush()
+this we only apply in case i am not modifying some data internally in this component. We can achieve by inout and output.
+

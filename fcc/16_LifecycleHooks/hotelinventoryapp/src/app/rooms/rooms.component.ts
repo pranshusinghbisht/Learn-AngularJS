@@ -10,6 +10,8 @@ export class RoomsComponent implements OnInit {
 
   noOfRooms = 12;
 
+  selectedRoom !: RoomList;
+
   rooms: Room = {
     totalRooms: 20,
     availableRooms: 10,
@@ -94,6 +96,31 @@ export class RoomsComponent implements OnInit {
       }
     ]
 
+  }
+  selectRoom(room: RoomList){
+    // console.log(room);
+
+    this.selectedRoom = room;
+    
+  }
+
+
+  addRoom(){
+    
+    let room: RoomList = {
+      roomNumber: 4,
+      roomType: 'Deluxe Room',
+      amenities: 'Air Conditioner, Free Wifi, TV, Bathroom, Kitchen',
+      price: 500,
+      photos: 'https://images.pexels.com/photos/20943/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400',
+      checkinTime: new Date('11-Nov-2021'),
+      checkoutTime: new Date('12-Nov-2021')
+
+    }
+
+   this.roomlist.push(room);
+   
+    console.log(this.roomlist);
   }
 
 }
