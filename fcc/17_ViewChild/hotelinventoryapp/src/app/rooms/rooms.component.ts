@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Room, RoomList } from './rooms';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-rooms',
@@ -11,6 +12,8 @@ export class RoomsComponent implements OnInit {
   noOfRooms = 12;
 
   selectedRoom !: RoomList;
+
+  @ViewChild(HeaderComponent) headerComponent !: HeaderComponent;
 
   rooms: Room = {
     totalRooms: 20,

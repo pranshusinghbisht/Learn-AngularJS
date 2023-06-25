@@ -1,0 +1,8 @@
+static: true
+ in ViewChild, it means this component is safe to be use inside oninit of its parent.
+
+ Why we should make it true and false?
+
+--Suppose my header lifecycle has same lifecycle hook and inside ngOnit it has some synchronous code. in that case execution will be block. 
+
+--We wont be confident particular instance will be available at ngOninit of my parent.

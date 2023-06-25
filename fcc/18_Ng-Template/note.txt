@@ -1,0 +1,28 @@
+###### ng-template
+
+<ng-template #user> </ng-template>
+
+--it is a tag which is never render anything itself. It is not visible. It can helps us to render some other templates.
+
+--what is template here.. some of the other component will be.
+
+--Dynamic load 
+
+-- this #user is something name as template referece
+
+#Once we define any html tag with this #anyName . WE can access that tag inside in .ts file with ViewChild('anyName')
+,
+
+
+
+
+
+
+
+The @ViewChild() decorator in Angular is used to obtain a reference to a child component, directive, or element within a parent component. It allows the parent component to access properties, methods, and events of the child component, directive, or element.
+
+
+In Angular, the @ViewChildren() decorator is used to query for multiple child elements or components within a parent component. It allows the parent component to access and interact with multiple instances of a child component or elements that match a specific selector.
+
+
+In Angular, the @ContentChild() decorator is used to obtain a reference to the first occurrence of a directive or element that matches a specific selector within the content of a component. It allows the component to access properties, methods, and events of the matched directive or element.
